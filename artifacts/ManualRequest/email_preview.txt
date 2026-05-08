@@ -1,0 +1,14 @@
+From: automated_tester@yopmail.com
+To: 
+Subject: Test Execution Confirmation & Reports
+
+Hi Bhaumik,
+
+The automated test execution for 10 new employees has completed.
+Attached, please find the Execution Data (ExecutionData.xlsx) containing employee records and API test cases, and the detailed Execution Report (ExecutionReport.html).
+
+Execution Status: SUCCESS
+Total Employees Added & Verified: 10
+
+Best regards,
+AI Tester

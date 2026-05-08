@@ -1,0 +1,7 @@
+{
+  "ragTopK": 100,
+  "executionMode": "smoke",
+  "headless": false,
+  "provider": "google",
+  "model": "gemini-2.0-flash"
+}

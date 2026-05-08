@@ -1,0 +1,88 @@
+{
+  "testPlanTitle": "Leolity - Applied/Saved Job List Retrieval",
+  "jiraId": "CBOT-201",
+  "scope": "Verify Leolity's ability to correctly display a user's list of saved and applied jobs when requested via chat.",
+  "testTypes": [
+    "UI",
+    "Functional"
+  ],
+  "riskAreas": [
+    "Incorrect data retrieval",
+    "Chatbot response failure",
+    "UI display issues"
+  ],
+  "testCases": [
+    {
+      "id": "TC_001",
+      "title": "Verify 'Applied Jobs' List Retrieval - Positive Case",
+      "type": "Positive",
+      "priority": "High",
+      "steps": [
+        "Navigate to https://leolity-qa.goarya.com/demo-staffing/home",
+        "Initiate a chat with Leolity.",
+        "Type 'What jobs have I applied for?' and send the message.",
+        "Verify the chatbot responds with a list of applied jobs."
+      ],
+      "expectedResult": "The chatbot displays a clear and accurate list of jobs the user has applied for. The list should match the jobs visible in the 'Applied Jobs' section of the careersite.",
+      "targetPage": "https://leolity-qa.goarya.com/demo-staffing/home"
+    },
+    {
+      "id": "TC_002",
+      "title": "Verify 'Saved Jobs' List Retrieval - Positive Case",
+      "type": "Positive",
+      "priority": "High",
+      "steps": [
+        "Navigate to https://leolity-qa.goarya.com/demo-staffing/home",
+        "Initiate a chat with Leolity.",
+        "Type 'What jobs have I saved?' and send the message.",
+        "Verify the chatbot responds with a list of saved jobs."
+      ],
+      "expectedResult": "The chatbot displays a clear and accurate list of jobs the user has saved. The list should match the jobs visible in the 'Saved Jobs' section of the careersite.",
+      "targetPage": "https://leolity-qa.goarya.com/demo-staffing/home"
+    },
+    {
+      "id": "TC_003",
+      "title": "Verify No Jobs Applied/Saved - Negative Case",
+      "type": "Negative",
+      "priority": "Medium",
+      "steps": [
+        "Navigate to https://leolity-qa.goarya.com/demo-staffing/home",
+        "Initiate a chat with Leolity.",
+        "Ensure no jobs are saved or applied for.",
+        "Type 'What jobs have I applied for?' and send the message.",
+        "Type 'What jobs have I saved?' and send the message."
+      ],
+      "expectedResult": "The chatbot responds with a message indicating that no jobs have been applied for or saved, respectively. The message should be user-friendly and informative.",
+      "targetPage": "https://leolity-qa.goarya.com/demo-staffing/home"
+    },
+    {
+      "id": "TC_004",
+      "title": "Verify Handling of Ambiguous Query - Edge Case",
+      "type": "Edge",
+      "priority": "Low",
+      "steps": [
+        "Navigate to https://leolity-qa.goarya.com/demo-staffing/home",
+        "Initiate a chat with Leolity.",
+        "Type 'My jobs?' and send the message.",
+        "Verify the chatbot's response."
+      ],
+      "expectedResult": "The chatbot should either ask for clarification (e.g., 'Do you mean applied jobs or saved jobs?') or attempt to provide both lists. The response should not be an error or a generic 'I don't understand' message.",
+      "targetPage": "https://leolity-qa.goarya.com/demo-staffing/home"
+    },
+    {
+      "id": "TC_005",
+      "title": "Verify List Display with Large Number of Jobs - Edge Case",
+      "type": "Edge",
+      "priority": "Medium",
+      "steps": [
+        "Navigate to https://leolity-qa.goarya.com/demo-staffing/home",
+        "Initiate a chat with Leolity.",
+        "Apply/Save a significant number of jobs (e.g., 20+).",
+        "Type 'What jobs have I applied for?' and send the message.",
+        "Type 'What jobs have I saved?' and send the message."
+      ],
+      "expectedResult": "The chatbot displays the complete list of applied/saved jobs without errors or performance issues. The list should be paginated or scrollable if necessary to accommodate the large number of entries. The UI should remain responsive.",
+      "targetPage": "https://leolity-qa.goarya.com/demo-staffing/home"
+    }
+  ]
+}

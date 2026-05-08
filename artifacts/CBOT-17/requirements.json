@@ -1,0 +1,431 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "16743",
+  "self": "https://spectraforcejira.atlassian.net/rest/api/3/issue/16743",
+  "key": "CBOT-17",
+  "fields": {
+    "summary": "Receiving an invalid pixel error when clicking the validate pixel button, even after configuring the job with the external site.",
+    "issuetype": {
+      "self": "https://spectraforcejira.atlassian.net/rest/api/3/issuetype/10012",
+      "id": "10012",
+      "description": "A problem or error.",
+      "iconUrl": "https://spectraforcejira.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+      "name": "Bug",
+      "subtask": false,
+      "avatarId": 10303,
+      "hierarchyLevel": 0
+    },
+    "components": [],
+    "description": {
+      "type": "doc",
+      "version": 1,
+      "content": [
+        {
+          "type": "orderedList",
+          "attrs": {
+            "order": 1
+          },
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "create org "
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Create user and create a job"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "orderedList",
+          "attrs": {
+            "order": 3
+          },
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "go to assist tab and click on the particular org"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "orderedList",
+          "attrs": {
+            "order": 4
+          },
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Click on the test pixel"
+                    },
+                    {
+                      "type": "hardBreak"
+                    },
+                    {
+                      "type": "text",
+                      "text": "5. User navigate to the configured external url"
+                    },
+                    {
+                      "type": "hardBreak"
+                    },
+                    {
+                      "type": "text",
+                      "text": "6. Back to assist tab and observe that aryacid will display in the testing pixel field"
+                    },
+                    {
+                      "type": "hardBreak"
+                    },
+                    {
+                      "type": "text",
+                      "text": "7. Click on the validate pixel button"
+                    },
+                    {
+                      "type": "hardBreak"
+                    },
+                    {
+                      "type": "text",
+                      "text": "8. Observe that invalid pixel error is displaying"
+                    },
+                    {
+                      "type": "hardBreak"
+                    },
+                    {
+                      "type": "hardBreak"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Org details: "
+                    },
+                    {
+                      "type": "text",
+                      "text": "https://assist-qa.goarya.com/orgs/552323",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://assist-qa.goarya.com/orgs/552323"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "hardBreak"
+                    },
+                    {
+                      "type": "text",
+                      "text": "User details: "
+                    },
+                    {
+                      "type": "text",
+                      "text": "referralqa@goarya.com",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "mailto:referralqa@goarya.com"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "hardBreak"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Password: Welcome@1234"
+                    },
+                    {
+                      "type": "hardBreak"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Job id: 419224"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Please find the below attached screenshots for reference"
+            },
+            {
+              "type": "hardBreak"
+            }
+          ]
+        },
+        {
+          "type": "mediaSingle",
+          "attrs": {
+            "layout": "align-start"
+          },
+          "content": [
+            {
+              "type": "media",
+              "attrs": {
+                "type": "file",
+                "id": "dd510cca-2275-4651-b487-33a46d9376dc",
+                "alt": "image-20241119-115347.png",
+                "collection": "",
+                "height": 678,
+                "width": 1283
+              }
+            }
+          ]
+        },
+        {
+          "type": "mediaSingle",
+          "attrs": {
+            "layout": "align-start"
+          },
+          "content": [
+            {
+              "type": "media",
+              "attrs": {
+                "type": "file",
+                "id": "847d1ec6-970b-4c90-a02e-50bdfd0dd233",
+                "alt": "image-20241119-115418.png",
+                "collection": "",
+                "height": 684,
+                "width": 1343
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "comment": {
+      "comments": [
+        {
+          "self": "https://spectraforcejira.atlassian.net/rest/api/3/issue/16743/comment/19682",
+          "id": "19682",
+          "author": {
+            "self": "https://spectraforcejira.atlassian.net/rest/api/3/user?accountId=712020%3A16f0f331-bb0d-4a3b-8f29-80212475ab4b",
+            "accountId": "712020:16f0f331-bb0d-4a3b-8f29-80212475ab4b",
+            "emailAddress": "ayush.kumar@leoforce.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:16f0f331-bb0d-4a3b-8f29-80212475ab4b/0d4d5208-753c-4fb1-9b2d-1becc3b30abe/48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:16f0f331-bb0d-4a3b-8f29-80212475ab4b/0d4d5208-753c-4fb1-9b2d-1becc3b30abe/24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:16f0f331-bb0d-4a3b-8f29-80212475ab4b/0d4d5208-753c-4fb1-9b2d-1becc3b30abe/16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:16f0f331-bb0d-4a3b-8f29-80212475ab4b/0d4d5208-753c-4fb1-9b2d-1becc3b30abe/32"
+            },
+            "displayName": "Ayush Kumar Karn",
+            "active": true,
+            "timeZone": "Asia/Kolkata",
+            "accountType": "atlassian"
+          },
+          "body": {
+            "type": "doc",
+            "version": 1,
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "As discussed this was because the step to apply was missed and upon applying the pixel validation is getting succeeded"
+                  }
+                ]
+              }
+            ]
+          },
+          "updateAuthor": {
+            "self": "https://spectraforcejira.atlassian.net/rest/api/3/user?accountId=712020%3A16f0f331-bb0d-4a3b-8f29-80212475ab4b",
+            "accountId": "712020:16f0f331-bb0d-4a3b-8f29-80212475ab4b",
+            "emailAddress": "ayush.kumar@leoforce.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:16f0f331-bb0d-4a3b-8f29-80212475ab4b/0d4d5208-753c-4fb1-9b2d-1becc3b30abe/48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:16f0f331-bb0d-4a3b-8f29-80212475ab4b/0d4d5208-753c-4fb1-9b2d-1becc3b30abe/24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:16f0f331-bb0d-4a3b-8f29-80212475ab4b/0d4d5208-753c-4fb1-9b2d-1becc3b30abe/16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:16f0f331-bb0d-4a3b-8f29-80212475ab4b/0d4d5208-753c-4fb1-9b2d-1becc3b30abe/32"
+            },
+            "displayName": "Ayush Kumar Karn",
+            "active": true,
+            "timeZone": "Asia/Kolkata",
+            "accountType": "atlassian"
+          },
+          "created": "2024-11-19T18:17:58.550+0530",
+          "updated": "2024-11-19T18:17:58.550+0530",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://spectraforcejira.atlassian.net/rest/api/3/issue/16743/comment/19870",
+          "id": "19870",
+          "author": {
+            "self": "https://spectraforcejira.atlassian.net/rest/api/3/user?accountId=712020%3Aa012fd91-ac9c-467e-a06a-f69cb2aedc56",
+            "accountId": "712020:a012fd91-ac9c-467e-a06a-f69cb2aedc56",
+            "emailAddress": "hemanth.kokanti@leoforce.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/e3366a9b8eedfe20754ac3183a24a47d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-5.png",
+              "24x24": "https://secure.gravatar.com/avatar/e3366a9b8eedfe20754ac3183a24a47d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-5.png",
+              "16x16": "https://secure.gravatar.com/avatar/e3366a9b8eedfe20754ac3183a24a47d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-5.png",
+              "32x32": "https://secure.gravatar.com/avatar/e3366a9b8eedfe20754ac3183a24a47d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-5.png"
+            },
+            "displayName": "hemanth.kokanti",
+            "active": true,
+            "timeZone": "Asia/Kolkata",
+            "accountType": "atlassian"
+          },
+          "body": {
+            "type": "doc",
+            "version": 1,
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "As we discussed this is verified by applying the job and it is working fine. Below is the attcahed video for reference."
+                  },
+                  {
+                    "type": "hardBreak"
+                  },
+                  {
+                    "type": "hardBreak"
+                  },
+                  {
+                    "type": "text",
+                    "text": "FYI "
+                  },
+                  {
+                    "type": "mention",
+                    "attrs": {
+                      "id": "712020:16f0f331-bb0d-4a3b-8f29-80212475ab4b",
+                      "text": "@Ayush Kumar Karn",
+                      "accessLevel": "",
+                      "localId": "db9b777c-512f-4c1c-8d8a-d5f36560a48f"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " "
+                  }
+                ]
+              },
+              {
+                "type": "mediaSingle",
+                "attrs": {
+                  "layout": "align-start"
+                },
+                "content": [
+                  {
+                    "type": "media",
+                    "attrs": {
+                      "type": "file",
+                      "id": "7ffdb472-291f-4f99-901b-bcf062916ec8",
+                      "alt": "Arya Account Managment - Google Chrome 2024-11-21 12-27-05.mp4",
+                      "collection": "",
+                      "height": 728,
+                      "width": 1376
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "updateAuthor": {
+            "self": "https://spectraforcejira.atlassian.net/rest/api/3/user?accountId=712020%3Aa012fd91-ac9c-467e-a06a-f69cb2aedc56",
+            "accountId": "712020:a012fd91-ac9c-467e-a06a-f69cb2aedc56",
+            "emailAddress": "hemanth.kokanti@leoforce.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/e3366a9b8eedfe20754ac3183a24a47d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-5.png",
+              "24x24": "https://secure.gravatar.com/avatar/e3366a9b8eedfe20754ac3183a24a47d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-5.png",
+              "16x16": "https://secure.gravatar.com/avatar/e3366a9b8eedfe20754ac3183a24a47d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-5.png",
+              "32x32": "https://secure.gravatar.com/avatar/e3366a9b8eedfe20754ac3183a24a47d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-5.png"
+            },
+            "displayName": "hemanth.kokanti",
+            "active": true,
+            "timeZone": "Asia/Kolkata",
+            "accountType": "atlassian"
+          },
+          "created": "2024-11-21T12:29:55.700+0530",
+          "updated": "2024-11-21T12:29:55.700+0530",
+          "jsdPublic": true
+        }
+      ],
+      "self": "https://spectraforcejira.atlassian.net/rest/api/3/issue/16743/comment",
+      "maxResults": 2,
+      "total": 2,
+      "startAt": 0
+    },
+    "assignee": {
+      "self": "https://spectraforcejira.atlassian.net/rest/api/3/user?accountId=712020%3Aa012fd91-ac9c-467e-a06a-f69cb2aedc56",
+      "accountId": "712020:a012fd91-ac9c-467e-a06a-f69cb2aedc56",
+      "emailAddress": "hemanth.kokanti@leoforce.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e3366a9b8eedfe20754ac3183a24a47d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/e3366a9b8eedfe20754ac3183a24a47d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/e3366a9b8eedfe20754ac3183a24a47d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/e3366a9b8eedfe20754ac3183a24a47d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-5.png"
+      },
+      "displayName": "hemanth.kokanti",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "priority": {
+      "self": "https://spectraforcejira.atlassian.net/rest/api/3/priority/2",
+      "iconUrl": "https://spectraforcejira.atlassian.net/rest/api/2/universal_avatar/view/type/priority/avatar/10559?size=medium",
+      "name": "Major",
+      "id": "2"
+    },
+    "status": {
+      "self": "https://spectraforcejira.atlassian.net/rest/api/3/status/10017",
+      "description": "",
+      "iconUrl": "https://spectraforcejira.atlassian.net/",
+      "name": "Done",
+      "id": "10017",
+      "statusCategory": {
+        "self": "https://spectraforcejira.atlassian.net/rest/api/3/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+      }
+    },
+    "labels": [
+      "QA"
+    ]
+  }
+}

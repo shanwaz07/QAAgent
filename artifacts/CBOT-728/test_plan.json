@@ -1,0 +1,86 @@
+{
+  "testPlanTitle": "View Job Button Functionality - CBOT-728",
+  "jiraId": "CBOT-728",
+  "scope": "Verification of the 'View Job' button functionality within the conversational AI careersite, ensuring correct job details are displayed when clicked.",
+  "testTypes": [
+    "UI"
+  ],
+  "riskAreas": [
+    "Job Details Display",
+    "Navigation",
+    "Chatbot Integration"
+  ],
+  "testCases": [
+    {
+      "id": "TC_001",
+      "title": "Verify 'View Job' redirects to valid job details page - Positive Case",
+      "type": "Positive",
+      "priority": "High",
+      "steps": [
+        "Initiate a chat session with the Convert chatbot.",
+        "Search for a job using a valid keyword (e.g., 'Sales Agent').",
+        "Locate a job listing in the search results.",
+        "Click the 'View Job' button associated with the job listing."
+      ],
+      "expectedResult": "The user is redirected to a dedicated job details page with accurate information for the selected job. The URL should not contain '0' as a job ID.",
+      "targetPage": "https://leolity-qa.goarya.com/demo-staffing/home"
+    },
+    {
+      "id": "TC_002",
+      "title": "Verify 'View Job' handling of jobs with no details - Negative Case",
+      "type": "Negative",
+      "priority": "High",
+      "steps": [
+        "Initiate a chat session with the Convert chatbot.",
+        "Search for a job using a keyword that may return jobs with incomplete data.",
+        "Locate a job listing in the search results.",
+        "Click the 'View Job' button associated with the job listing."
+      ],
+      "expectedResult": "The system displays a user-friendly error message indicating that job details are unavailable, instead of redirecting to a page with a '0' ID or a broken page.  The user remains on the current page or is redirected to a relevant help/error page.",
+      "targetPage": "https://leolity-qa.goarya.com/demo-staffing/home"
+    },
+    {
+      "id": "TC_003",
+      "title": "Verify 'View Job' button functionality after multiple searches - Edge Case",
+      "type": "Edge",
+      "priority": "Medium",
+      "steps": [
+        "Initiate a chat session with the Convert chatbot.",
+        "Search for a job using a keyword (e.g., 'Data Scientist').",
+        "Click the 'View Job' button for a job listing.",
+        "Navigate back to the chat interface.",
+        "Search for a different job using a new keyword (e.g., 'Marketing Manager').",
+        "Click the 'View Job' button for a job listing."
+      ],
+      "expectedResult": "The user is correctly redirected to the job details page for the second job listing. The URL should not contain '0' as a job ID. The functionality remains consistent across multiple searches.",
+      "targetPage": "https://leolity-qa.goarya.com/demo-staffing/home"
+    },
+    {
+      "id": "TC_004",
+      "title": "Verify 'View Job' button behavior with long job titles - Edge Case",
+      "type": "Edge",
+      "priority": "Medium",
+      "steps": [
+        "Initiate a chat session with the Convert chatbot.",
+        "Search for a job using a keyword that returns jobs with exceptionally long titles.",
+        "Locate a job listing with a long title.",
+        "Click the 'View Job' button associated with the job listing."
+      ],
+      "expectedResult": "The 'View Job' button redirects to the job details page without any display issues caused by the long job title. The URL should not contain '0' as a job ID. The job title is displayed correctly on the details page.",
+      "targetPage": "https://leolity-qa.goarya.com/demo-staffing/home"
+    },
+    {
+      "id": "TC_005",
+      "title": "Verify 'View Job' button is disabled when no jobs are found - Negative Case",
+      "type": "Negative",
+      "priority": "Medium",
+      "steps": [
+        "Initiate a chat session with the Convert chatbot.",
+        "Search for a job using a keyword that returns no results.",
+        "Observe the search results area."
+      ],
+      "expectedResult": "The 'View Job' button is not displayed or is disabled for any job listings, as no jobs are available. A 'No jobs found' message is displayed.",
+      "targetPage": "https://leolity-qa.goarya.com/demo-staffing/home"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "jiraId": "CBOT-728",
+  "title": "Getting \"0\" id jobs when user clicking on the view job button",
+  "description": "",
+  "type": "Bug",
+  "status": "To Do",
+  "labels": [],
+  "components": [],
+  "priority": "Major",
+  "assignee": "krishna.mourya"
+}

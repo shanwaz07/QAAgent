@@ -1,0 +1,90 @@
+# Interactive Elements:
+    - button "Home"
+    - button "Solutions"
+    - button "Careers"
+    - button "Market"
+    - button "Contact"
+  - button "Find Your Next Role"
+  - button "Find Talent"
+  - button "Explore careers"
+  - button "Learn more"
+  - button "Learn more about our approach"
+  - button "Get in touch"
+  - heading "Quick Links" [level=4]
+      - button "Home"
+      - button "Solutions"
+      - button "Market"
+      - button "Careers"
+      - button "Contact"
+
+# All Elements (70 lines):
+- alert
+- main:
+  - navigation:
+    - img "Demo Staffing Logo"
+    - heading "Demo Staffing" [level=1]
+    - button "Home"
+    - button "Solutions"
+    - button "Careers"
+    - button "Market"
+    - button "Contact"
+  - heading "Connect talent with opportunity" [level=1]
+  - paragraph: We help exceptional companies find exceptional people, and exceptional people find exceptional opportunities.
+  - button "Find Your Next Role"
+  - button "Find Talent"
+  - heading "Our services" [level=2]
+  - paragraph: Comprehensive solutions tailored to your unique needs
+  - heading "For candidates" [level=3]
+  - paragraph: Unlock opportunities that match your aspirations. Our personalized approach ensures you find roles that challenge, inspire, and advance your career trajectory.
+  - button "Explore careers"
+  - heading "For companies" [level=3]
+  - paragraph: Access top-tier talent through our comprehensive recruitment solutions. From direct hire to contract staffing, we deliver candidates who align with your culture and drive results.
+  - button "Learn more"
+  - heading "About Demo Staffing" [level=2]
+  - paragraph: With over a decade of experience in talent acquisition, Demo Staffing has built a reputation for excellence in connecting exceptional professionals with forward-thinking organizations.
+  - paragraph: Our deep industry expertise and commitment to understanding both client and candidate needs sets us apart in the competitive landscape of recruitment.
+  - button "Learn more about our approach"
+  - heading "Proven track record" [level=4]
+  - paragraph: Successfully placed 2,500+ professionals
+  - heading "Industry expertise" [level=4]
+  - paragraph: Deep knowledge across 15+ sectors
+  - heading "Personalized service" [level=4]
+  - paragraph: Dedicated consultants for every placement
+  - heading "What our partners say" [level=2]
+  - text: “
+  - paragraph: Demo Staffing transformed our hiring process. They didn't just send us resumes—they delivered candidates who understood our vision and fit seamlessly into our culture.
+  - paragraph: Sarah Chen
+  - paragraph: VP of Operations, TechForward Inc.
+  - text: “
+  - paragraph: The personalized attention I received was exceptional. They took time to understand my career goals and connected me with a role that has exceeded all my expectations.
+  - paragraph: Michael Rodriguez
+  - paragraph: Senior Software Engineer
+  - heading "Why choose Demo Staffing" [level=2]
+  - paragraph: Our commitment to excellence drives everything we do
+  - heading "Expertise" [level=3]
+  - paragraph: Deep industry knowledge and proven track record of successful placements across diverse sectors and skill levels.
+  - heading "Personalization" [level=3]
+  - paragraph: Tailored solutions that address your unique challenges and objectives, ensuring perfect alignment between talent and opportunity.
+  - heading "Integrity" [level=3]
+  - paragraph: Transparent communication, ethical practices, and unwavering commitment to building long-term partnerships based on trust.
+  - heading "Ready to find your next opportunity?" [level=2]
+  - paragraph: Whether you're looking to hire top talent or advance your career, we're here to help you succeed.
+  - button "Get in touch"
+  - heading "Demo Staffing" [level=3]
+  - paragraph: Connecting exceptional talent with exceptional opportunities. Your trusted partner in building successful careers and teams.
+  - heading "Quick Links" [level=4]
+  - list:
+    - listitem:
+      - button "Home"
+    - listitem:
+      - button "Solutions"
+    - listitem:
+      - button "Market"
+    - listitem:
+      - button "Careers"
+    - listitem:
+      - button "Contact"
+  - heading "Contact" [level=4]
+  - text: hello@demostaffing.com (555) 123-4567 123 Business District New York, NY 10001
+  - paragraph: © 2026 Demo Staffing. All rights reserved.
+  - text: Privacy Policy Terms of Service Cookie Policy

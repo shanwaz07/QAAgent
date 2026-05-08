@@ -1,0 +1,24 @@
+node_modules/
+dist/
+build/
+.env
+playwright-report/
+test-results/
+test-results*/
+blob-report/
+playwright/.cache/
+*.log
+.DS_Store
+
+# Legacy OrangeHRM demo (superseded by Convert/Leoforce target)
+orangehrm-e2e-orchestration/
+tests/scrum-101.spec.ts
+tests/scrum-200.spec.ts
+artifacts/SCRUM-101/
+artifacts/SCRUM-200/
+employee.csv
+automated_execution.js
+BugReport.md
+UserGuide.md
+ExecutionData.xlsx
+ExecutionReport.html

@@ -1,0 +1,179 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "29751",
+  "self": "https://spectraforcejira.atlassian.net/rest/api/3/issue/29751",
+  "key": "CBOT-201",
+  "fields": {
+    "summary": "Leolity is not showing saved or applied list when asked by the user in the chat,",
+    "issuetype": {
+      "self": "https://spectraforcejira.atlassian.net/rest/api/3/issuetype/10012",
+      "id": "10012",
+      "description": "A problem or error.",
+      "iconUrl": "https://spectraforcejira.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+      "name": "Bug",
+      "subtask": false,
+      "avatarId": 10303,
+      "hierarchyLevel": 0
+    },
+    "components": [],
+    "description": {
+      "type": "doc",
+      "version": 1,
+      "content": [
+        {
+          "type": "mediaSingle",
+          "attrs": {
+            "layout": "align-start"
+          },
+          "content": [
+            {
+              "type": "media",
+              "attrs": {
+                "type": "file",
+                "id": "aeae8a07-1d40-4cab-b16e-909a4378deec",
+                "alt": "image-20250903-095755.png",
+                "collection": "",
+                "height": 438,
+                "width": 1362
+              }
+            }
+          ]
+        },
+        {
+          "type": "mediaSingle",
+          "attrs": {
+            "layout": "align-start"
+          },
+          "content": [
+            {
+              "type": "media",
+              "attrs": {
+                "type": "file",
+                "id": "73b441d1-db38-427f-a077-129af0072ca1",
+                "alt": "image-20250903-095827.png",
+                "collection": "",
+                "height": 438,
+                "width": 1362
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "comment": {
+      "comments": [
+        {
+          "self": "https://spectraforcejira.atlassian.net/rest/api/3/issue/29751/comment/42781",
+          "id": "42781",
+          "author": {
+            "self": "https://spectraforcejira.atlassian.net/rest/api/3/user?accountId=640032c70e0ddcdce18cddb0",
+            "accountId": "640032c70e0ddcdce18cddb0",
+            "emailAddress": "shanwaz.halageri@leoforce.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/990b98a700212c659dc977f45f0df21e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-1.png",
+              "24x24": "https://secure.gravatar.com/avatar/990b98a700212c659dc977f45f0df21e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-1.png",
+              "16x16": "https://secure.gravatar.com/avatar/990b98a700212c659dc977f45f0df21e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-1.png",
+              "32x32": "https://secure.gravatar.com/avatar/990b98a700212c659dc977f45f0df21e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-1.png"
+            },
+            "displayName": "Shanwaz Halageri",
+            "active": true,
+            "timeZone": "Asia/Kolkata",
+            "accountType": "atlassian"
+          },
+          "body": {
+            "type": "doc",
+            "version": 1,
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "The issue still persists. "
+                  }
+                ]
+              },
+              {
+                "type": "mediaSingle",
+                "attrs": {
+                  "layout": "align-start"
+                },
+                "content": [
+                  {
+                    "type": "media",
+                    "attrs": {
+                      "type": "file",
+                      "id": "4d171178-3061-4ce8-acae-f4dfeeae6eb8",
+                      "alt": "image-20250908-091030.png",
+                      "collection": "",
+                      "height": 492,
+                      "width": 658
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "updateAuthor": {
+            "self": "https://spectraforcejira.atlassian.net/rest/api/3/user?accountId=640032c70e0ddcdce18cddb0",
+            "accountId": "640032c70e0ddcdce18cddb0",
+            "emailAddress": "shanwaz.halageri@leoforce.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/990b98a700212c659dc977f45f0df21e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-1.png",
+              "24x24": "https://secure.gravatar.com/avatar/990b98a700212c659dc977f45f0df21e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-1.png",
+              "16x16": "https://secure.gravatar.com/avatar/990b98a700212c659dc977f45f0df21e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-1.png",
+              "32x32": "https://secure.gravatar.com/avatar/990b98a700212c659dc977f45f0df21e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-1.png"
+            },
+            "displayName": "Shanwaz Halageri",
+            "active": true,
+            "timeZone": "Asia/Kolkata",
+            "accountType": "atlassian"
+          },
+          "created": "2025-09-08T14:40:38.795+0530",
+          "updated": "2025-09-08T14:40:38.795+0530",
+          "jsdPublic": true
+        }
+      ],
+      "self": "https://spectraforcejira.atlassian.net/rest/api/3/issue/29751/comment",
+      "maxResults": 1,
+      "total": 1,
+      "startAt": 0
+    },
+    "assignee": {
+      "self": "https://spectraforcejira.atlassian.net/rest/api/3/user?accountId=712020%3A9bcaa25d-c0c5-4849-bdcd-7b533acfbd9b",
+      "accountId": "712020:9bcaa25d-c0c5-4849-bdcd-7b533acfbd9b",
+      "emailAddress": "krishna.mourya@leoforce.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/18005d0803902326b6df63a95bf4ffe4?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FK-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/18005d0803902326b6df63a95bf4ffe4?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FK-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/18005d0803902326b6df63a95bf4ffe4?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FK-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/18005d0803902326b6df63a95bf4ffe4?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FK-6.png"
+      },
+      "displayName": "krishna.mourya",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "priority": {
+      "self": "https://spectraforcejira.atlassian.net/rest/api/3/priority/2",
+      "iconUrl": "https://spectraforcejira.atlassian.net/rest/api/2/universal_avatar/view/type/priority/avatar/10559?size=medium",
+      "name": "Major",
+      "id": "2"
+    },
+    "status": {
+      "self": "https://spectraforcejira.atlassian.net/rest/api/3/status/10016",
+      "description": "",
+      "iconUrl": "https://spectraforcejira.atlassian.net/",
+      "name": "To Do",
+      "id": "10016",
+      "statusCategory": {
+        "self": "https://spectraforcejira.atlassian.net/rest/api/3/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "blue-gray",
+        "name": "To Do"
+      }
+    },
+    "labels": []
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "testPlanTitle": "Convert - CBOT-17 Regression Testing",
+  "jiraId": "CBOT-17",
+  "scope": "Regression testing of the Convert conversational AI careersite agent, focusing on UI functionality and previously reported bugs related to branching questions, template saving, and general chat behavior.",
+  "testTypes": [
+    "UI",
+    "Functional"
+  ],
+  "riskAreas": [
+    "Branching Question Logic",
+    "Template Management",
+    "Chat Widget Responsiveness",
+    "UI Rendering"
+  ],
+  "testCases": [
+    {
+      "id": "TC_001",
+      "title": "Verify Chat Widget Initialization and Basic Interaction",
+      "type": "Positive",
+      "priority": "High",
+      "steps": [
+        "Navigate to https://leolity-qa.goarya.com/demo-staffing/home",
+        "Verify the chat widget is visible and the initial bot message is displayed.",
+        "Type a simple greeting (e.g., 'Hello') into the chat input field.",
+        "Send the message."
+      ],
+      "expectedResult": "The chat widget initializes correctly, displays the initial bot message, and responds to the greeting with a relevant message.",
+      "targetPage": "https://leolity-qa.goarya.com/demo-staffing/home"
+    },
+    {
+      "id": "TC_002",
+      "title": "Test Branching Question Functionality - Text Input",
+      "type": "Positive",
+      "priority": "High",
+      "steps": [
+        "Navigate to https://leolity-qa.goarya.com/demo-staffing/home",
+        "Initiate a chat session and navigate to a branching question that requires text input.",
+        "Enter a valid category name into the text input field.",
+        "Submit the response."
+      ],
+      "expectedResult": "The bot should respond with the appropriate follow-up message without displaying any error messages. The chat flow should proceed as expected.",
+      "targetPage": "https://leolity-qa.goarya.com/demo-staffing/home"
+    },
+    {
+      "id": "TC_003",
+      "title": "Verify Template Saving with Required Details",
+      "type": "Negative",
+      "priority": "Medium",
+      "steps": [
+        "Navigate to https://leolity-qa.goarya.com/demo-staffing/home",
+        "Initiate template creation.",
+        "Attempt to save the template without entering any required details.",
+        "Click the 'Save' button."
+      ],
+      "expectedResult": "The system should prevent saving the template and display appropriate error messages indicating which required fields are missing.",
+      "targetPage": "https://leolity-qa.goarya.com/demo-staffing/home"
+    },
+    {
+      "id": "TC_004",
+      "title": "Test UI Responsiveness with Multiple Branching Questions",
+      "type": "Edge",
+      "priority": "Medium",
+      "steps": [
+        "Navigate to https://leolity-qa.goarya.com/demo-staffing/home",
+        "Initiate a chat session and navigate to a scenario with at least 12 branching questions.",
+        "Expand all branching questions.",
+        "Attempt to scroll through the chat window."
+      ],
+      "expectedResult": "The UI should remain stable and scrolling should function correctly without any visual distortions or errors. The chat window should be fully scrollable.",
+      "targetPage": "https://leolity-qa.goarya.com/demo-staffing/home"
+    },
+    {
+      "id": "TC_005",
+      "title": "Verify Navigation to Follow-up Question in Collapsed Mode",
+      "type": "Positive",
+      "priority": "High",
+      "steps": [
+        "Navigate to https://leolity-qa.goarya.com/demo-staffing/home",
+        "Initiate a chat session and navigate to a branching question with a follow-up question.",
+        "Collapse the branching question.",
+        "Select an option that triggers the follow-up question."
+      ],
+      "expectedResult": "The application should navigate to the new follow-up question, and the follow-up question should be visible even though the parent branching question is collapsed.",
+      "targetPage": "https://leolity-qa.goarya.com/demo-staffing/home"
+    }
+  ]
+}

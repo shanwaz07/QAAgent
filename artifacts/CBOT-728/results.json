@@ -1,0 +1,47 @@
+{
+  "total": 5,
+  "passed": 0,
+  "failed": 5,
+  "results": [
+    {
+      "tcid": "TC_001",
+      "title": "Verify 'View Job' redirects to valid job details page - Positive Case",
+      "status": "FAIL",
+      "error": "Test exited with code 1",
+      "screenshot": null,
+      "duration": 3656
+    },
+    {
+      "tcid": "TC_002",
+      "title": "Verify 'View Job' handling of jobs with no details - Negative Case",
+      "status": "FAIL",
+      "error": "Test exited with code 1",
+      "screenshot": null,
+      "duration": 2711
+    },
+    {
+      "tcid": "TC_003",
+      "title": "Verify 'View Job' button functionality after multiple searches - Edge Case",
+      "status": "FAIL",
+      "error": "Test exited with code 1",
+      "screenshot": null,
+      "duration": 2937
+    },
+    {
+      "tcid": "TC_004",
+      "title": "Verify 'View Job' button behavior with long job titles - Edge Case",
+      "status": "FAIL",
+      "error": "Test exited with code 1",
+      "screenshot": null,
+      "duration": 2759
+    },
+    {
+      "tcid": "TC_005",
+      "title": "Verify 'View Job' button is disabled when no jobs are found - Negative Case",
+      "status": "FAIL",
+      "error": "Test exited with code 1",
+      "screenshot": null,
+      "duration": 2890
+    }
+  ]
+}

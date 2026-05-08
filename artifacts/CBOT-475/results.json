@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "passed": 0,
+  "failed": 5,
+  "results": [
+    {
+      "tcid": "TC_001",
+      "status": "FAIL",
+      "error": "Test exited with code 1"
+    },
+    {
+      "tcid": "TC_002",
+      "status": "FAIL",
+      "error": "Test exited with code 1"
+    },
+    {
+      "tcid": "TC_003",
+      "status": "FAIL",
+      "error": "Test exited with code 1"
+    },
+    {
+      "tcid": "TC_004",
+      "status": "FAIL",
+      "error": "Test exited with code 1"
+    },
+    {
+      "tcid": "TC_005",
+      "status": "FAIL",
+      "error": "Test exited with code 1"
+    }
+  ]
+}

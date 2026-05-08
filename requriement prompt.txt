@@ -1,0 +1,20 @@
+user give the requirements from manually and you have to create excel file and create sheet and  generate test cases and add on that sheet and then execute those test cases by using playwright mcp and generate execution report in detail and if there is any bug then create jira bug and store in document with screenshot, generate release note in document and store in release note folder, and in last detail report, confirmation mail sent on bhaumik41294@gmail.com mail id with required attachments, generate API Test cases and store in sheet also.
+
+requirements 
+
+1. open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2. login into system with valid credentials
+Username : Admin
+Password : admin123
+3. Click on PIM from side menu
+4. click on + add button
+5. Enter First Name
+6. Enter Last Name
+7. Enter Employee Id - Add randomly and store 
+8. Click on Save
+
+after click on save, add employee information in excel sheet with employee sheet name
+
+Add 10 Employee first one by one 
+go to https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList and search employee by Employee Id 
+

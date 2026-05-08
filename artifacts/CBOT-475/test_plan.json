@@ -1,0 +1,82 @@
+{
+  "testPlanTitle": "CBOT-475 - Conversational AI Careersite Agent - Basic Functionality",
+  "jiraId": "CBOT-475",
+  "scope": "Verify core functionality of the conversational AI agent on the careersite, including initial interaction, job search, and response handling. Focus on UI elements and basic conversation flow.",
+  "testTypes": [
+    "UI"
+  ],
+  "riskAreas": [
+    "Chatbot response accuracy",
+    "Job search filtering",
+    "UI responsiveness"
+  ],
+  "testCases": [
+    {
+      "id": "TC_001",
+      "title": "Initial Chat Interaction - Valid Query",
+      "type": "Positive",
+      "priority": "High",
+      "steps": [
+        "Navigate to https://leolity-qa.goarya.com/demo-staffing/home",
+        "Initiate a chat session with the AI agent.",
+        "Enter a valid job query (e.g., 'Registered Nurse jobs')."
+      ],
+      "expectedResult": "The AI agent responds with relevant job listings or prompts for further clarification. The chat interface remains responsive and displays the query and response clearly.",
+      "targetPage": "https://leolity-qa.goarya.com/demo-staffing/home"
+    },
+    {
+      "id": "TC_002",
+      "title": "No Jobs Found - Handling Empty Results",
+      "type": "Negative",
+      "priority": "Medium",
+      "steps": [
+        "Navigate to https://leolity-qa.goarya.com/demo-staffing/home",
+        "Initiate a chat session with the AI agent.",
+        "Enter a job query that is expected to return no results (e.g., 'Unicorn Wrangler jobs')."
+      ],
+      "expectedResult": "The AI agent displays a user-friendly message indicating that no jobs were found matching the criteria, and suggests alternative search terms or broader queries. No future jobs are created.",
+      "targetPage": "https://leolity-qa.goarya.com/demo-staffing/home"
+    },
+    {
+      "id": "TC_003",
+      "title": "Invalid Input - Non-Job Related Query",
+      "type": "Negative",
+      "priority": "Low",
+      "steps": [
+        "Navigate to https://leolity-qa.goarya.com/demo-staffing/home",
+        "Initiate a chat session with the AI agent.",
+        "Enter a query unrelated to job searching (e.g., 'What is the weather today?')."
+      ],
+      "expectedResult": "The AI agent responds with a polite message indicating it can only assist with job-related inquiries, or redirects the conversation back to job searching. The chat interface does not crash or display errors.",
+      "targetPage": "https://leolity-qa.goarya.com/demo-staffing/home"
+    },
+    {
+      "id": "TC_004",
+      "title": "Job Listing Interaction - View Details",
+      "type": "Positive",
+      "priority": "High",
+      "steps": [
+        "Navigate to https://leolity-qa.goarya.com/demo-staffing/home",
+        "Initiate a chat session and search for a job (e.g., 'Software Engineer').",
+        "Select a job listing from the results.",
+        "Verify the job details page loads correctly."
+      ],
+      "expectedResult": "The job details page loads successfully, displaying accurate information about the selected job, including title, description, location, and salary (if available).",
+      "targetPage": "https://leolity-qa.goarya.com/demo-staffing/home"
+    },
+    {
+      "id": "TC_005",
+      "title": "Chat Widget Responsiveness - Multiple Queries",
+      "type": "Positive",
+      "priority": "Medium",
+      "steps": [
+        "Navigate to https://leolity-qa.goarya.com/demo-staffing/home",
+        "Initiate a chat session.",
+        "Enter a series of different job queries (e.g., 'Data Scientist', 'Project Manager', 'Marketing Specialist') in quick succession.",
+        "Observe the chat widget's response time and behavior."
+      ],
+      "expectedResult": "The chat widget responds to each query without significant delays or errors. The chat history is displayed correctly, and the interface remains responsive throughout the interaction.",
+      "targetPage": "https://leolity-qa.goarya.com/demo-staffing/home"
+    }
+  ]
+}
